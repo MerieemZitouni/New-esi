@@ -26,6 +26,7 @@ import Contact from './pages/ContactRelex/Contact';
 import ProgrammeFinal from './pages/Programme/ProgrammeFinal';
 import DetailsPgme from './pages/DetailsPgme/DetailsPgme';
 import Specialites from './pages/Specialites/Specialites';
+import Publier from './pages/Admin/Publier';
 // import ClubsFinal from './pages/ClubsFinal/ClubsFinal';
 
 
@@ -67,6 +68,7 @@ function App() {
         <Route path='/ProgrammeFinal' element={<ProgrammeFinal/>}></Route>
         <Route path='/DetailsPgme' element={<DetailsPgme/>}></Route>
         <Route path='/Specialites' element={<Specialites/>}></Route>
+        <Route path='/Publier' element={<Publier/>}></Route>
         
 
 
